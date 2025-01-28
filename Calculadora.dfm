@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 441
-  ClientWidth = 624
+  ClientHeight = 124
+  ClientWidth = 283
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -12,17 +12,17 @@ object Form1: TForm1
   Font.Style = []
   TextHeight = 15
   object Edit1: TEdit
-    Left = 48
-    Top = 64
-    Width = 121
+    Left = 8
+    Top = 8
+    Width = 269
     Height = 23
     TabOrder = 0
     Text = 'Edit1'
     OnKeyPress = Edit1KeyPress
   end
   object btnAdd: TButton
-    Left = 94
-    Top = 128
+    Left = 8
+    Top = 48
     Width = 75
     Height = 25
     Caption = '+'
@@ -30,8 +30,8 @@ object Form1: TForm1
     OnClick = btnAddClick
   end
   object btnSub: TButton
-    Left = 94
-    Top = 176
+    Left = 102
+    Top = 48
     Width = 75
     Height = 25
     Caption = '-'
@@ -39,8 +39,8 @@ object Form1: TForm1
     OnClick = btnSubClick
   end
   object btnMult: TButton
-    Left = 94
-    Top = 232
+    Left = 8
+    Top = 88
     Width = 75
     Height = 25
     Caption = '*'
@@ -48,8 +48,8 @@ object Form1: TForm1
     OnClick = btnMultClick
   end
   object btnDiv: TButton
-    Left = 264
-    Top = 128
+    Left = 102
+    Top = 88
     Width = 75
     Height = 25
     Caption = '/'
@@ -57,10 +57,10 @@ object Form1: TForm1
     OnClick = btnDivClick
   end
   object btnClear: TButton
-    Left = 264
-    Top = 184
+    Left = 202
+    Top = 48
     Width = 75
-    Height = 25
+    Height = 65
     Caption = 'c'
     TabOrder = 5
     OnClick = btnClearClick
