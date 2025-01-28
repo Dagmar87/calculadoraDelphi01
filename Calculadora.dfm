@@ -18,6 +18,7 @@ object Form1: TForm1
     Height = 23
     TabOrder = 0
     Text = 'Edit1'
+    OnKeyPress = Edit1KeyPress
   end
   object btnAdd: TButton
     Left = 94
@@ -26,6 +27,7 @@ object Form1: TForm1
     Height = 25
     Caption = '+'
     TabOrder = 1
+    OnClick = btnAddClick
   end
   object btnSub: TButton
     Left = 94
@@ -34,6 +36,7 @@ object Form1: TForm1
     Height = 25
     Caption = '-'
     TabOrder = 2
+    OnClick = btnSubClick
   end
   object btnMult: TButton
     Left = 94
@@ -42,6 +45,7 @@ object Form1: TForm1
     Height = 25
     Caption = '*'
     TabOrder = 3
+    OnClick = btnMultClick
   end
   object btnDiv: TButton
     Left = 264
@@ -50,6 +54,7 @@ object Form1: TForm1
     Height = 25
     Caption = '/'
     TabOrder = 4
+    OnClick = btnDivClick
   end
   object btnClear: TButton
     Left = 264
@@ -58,5 +63,6 @@ object Form1: TForm1
     Height = 25
     Caption = 'c'
     TabOrder = 5
+    OnClick = btnClearClick
   end
 end
