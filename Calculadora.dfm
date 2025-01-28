@@ -19,44 +19,44 @@ object Form1: TForm1
     TabOrder = 0
     Text = 'Edit1'
   end
-  object Button1: TButton
+  object btnAdd: TButton
     Left = 94
     Top = 128
     Width = 75
     Height = 25
-    Caption = 'Button1'
+    Caption = '+'
     TabOrder = 1
   end
-  object Button2: TButton
+  object btnSub: TButton
     Left = 94
     Top = 176
     Width = 75
     Height = 25
-    Caption = 'Button2'
+    Caption = '-'
     TabOrder = 2
   end
-  object Button3: TButton
+  object btnMult: TButton
     Left = 94
     Top = 232
     Width = 75
     Height = 25
-    Caption = 'Button3'
+    Caption = '*'
     TabOrder = 3
   end
-  object Button4: TButton
+  object btnDiv: TButton
     Left = 264
     Top = 128
     Width = 75
     Height = 25
-    Caption = 'Button4'
+    Caption = '/'
     TabOrder = 4
   end
-  object Button5: TButton
+  object btnClear: TButton
     Left = 264
     Top = 184
     Width = 75
     Height = 25
-    Caption = 'Button5'
+    Caption = 'c'
     TabOrder = 5
   end
 end

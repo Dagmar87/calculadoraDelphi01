@@ -9,11 +9,11 @@ uses
 type
   TForm1 = class(TForm)
     Edit1: TEdit;
-    Button1: TButton;
-    Button2: TButton;
-    Button3: TButton;
-    Button4: TButton;
-    Button5: TButton;
+    btnAdd: TButton;
+    btnSub: TButton;
+    btnMult: TButton;
+    btnDiv: TButton;
+    btnClear: TButton;
   private
     { Private declarations }
   public
